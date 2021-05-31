@@ -15,10 +15,10 @@ const resolvers = {
 }
 
 // 3
-    const server = new ApolloServer({
-        typeDefs,
-        resolvers,
-    })
+const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+})
 
 server
     .listen()
