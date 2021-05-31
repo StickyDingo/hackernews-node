@@ -10,7 +10,7 @@ const typeDefs = `
 // 2
 const resolvers = {
     Query: {
-        info: () => `This si the API of a Hackernews Clone`
+        info: () => `This is the API of a Hackernews Clone`
     }
 }
 
